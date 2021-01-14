@@ -262,7 +262,6 @@ strong {
     background-position: right center;
     margin-bottom: 20px;
     width: 430px;
-    height: 130px;
     border-radius: 10px 10px 50px 0;
     -webkit-border-radius: 10px 10px 50px 0;
     -moz-border-radius: 10px 10px 50px 0;
@@ -295,16 +294,15 @@ strong {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     width: 430px;
-    height: 130px;
     border-radius: 50px 10px 10px 0;
     -webkit-border-radius: 50px 10px 10px 0;
     -moz-border-radius: 50px 10px 10px 0;
 }
 
 .nalog-score_img {
-	height: 420px;
+	height: 415px;
 }
 
 .nalog-actions-section {
@@ -358,7 +356,7 @@ strong {
 	z-index: 3;
 	position: absolute;
 	right: 80%;
-	top: 2300px;
+	top: 2280px;
 	width: 150px;
 }
 
@@ -400,7 +398,7 @@ strong {
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    padding: 20px 0;
+    padding: 10px 0 0;
     margin-right: 30px;
     margin-bottom: 20px;
 }
@@ -412,7 +410,7 @@ strong {
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 150%;
-    margin-right: 10px;
+    margin-right: 15px;
     margin-left: 10px;
 }
 
@@ -456,7 +454,7 @@ strong {
 	border-radius: 0 0 10px 10px;
     -webkit-border-radius: 0 0 10px 10px;
     -moz-border-radius: 0 0 10px 10px;
-	background-color: #ffffff;
+	background-color: #F2F5F7;
 	z-index: 5;
 }
 
