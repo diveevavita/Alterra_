@@ -10,6 +10,11 @@ body {
 }
 
 @font-face {
+    font-family: "Roboto Medium"; 
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
     font-family: "Roboto Bold"; 
     src: url(../fonts/Roboto-Bold.ttf);
 }
@@ -53,7 +58,7 @@ body {
 
 .container {
   	display: block;
-  	width: 1400px;
+    width: 1400px;
   	margin: 0 auto;
   	padding: 0 20px;
   	max-width: 100%;
@@ -93,7 +98,7 @@ body {
 
 .nalog-top-section {
     background-color: #f3f6f8;
-    padding: 40px 50px;
+    padding: 70px 50px;
     background-image: url(../images/house_.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -173,13 +178,14 @@ strong {
 .icon_top {
 	z-index: 3;
 	position: absolute;
-	right: 10%;
-	top: 730px;
+    right: 10%;
+    top: 760px;
 	width: 150px;
 }
 
 .nalog-advantages {
 	padding: 0 50px;
+    margin-bottom: 80px;
 }
 
 .nalog-section_title {
@@ -198,10 +204,6 @@ strong {
 .text_ex {
 	color: #F44336;
 	margin: 0;
-}
-
-.nalog-advantages {
-	margin-bottom: 120px;
 }
 
 .nalog-advantages_categories {
@@ -246,6 +248,9 @@ strong {
 	display: flex;
 	flex-wrap: nowrap;
 	margin-bottom: 120px;
+
+    position: relative;
+    overflow: hidden;
 }
 
 .nalog-score_items {
@@ -302,7 +307,7 @@ strong {
 }
 
 .nalog-score_img {
-	height: 415px;
+	position: relative;
 }
 
 .nalog-actions-section {
@@ -356,13 +361,13 @@ strong {
 	z-index: 3;
 	position: absolute;
 	right: 80%;
-	top: 2280px;
+	top: 2270px;
 	width: 150px;
 }
 
 .nalog-question-section {
 	padding: 0 50px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 .nalog-question_title {
@@ -372,21 +377,25 @@ strong {
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 130%;
-    width: 40%;
+    width: 45%;
     margin-bottom: 50px;
 }
 
 .nalog-question_blocks {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .nalog-question_block {
 	display: flex;
-	flex-wrap: wrap;
+    flex-wrap: wrap;
     flex-direction: column;
-    width: 47%;
-    margin-right: 2%;
+    width: 48%;
+}
+
+.nalog-question_block:nth-child(2) {
+    margin-right: 0;
 }
 
 .nalog-question_article {
@@ -398,8 +407,6 @@ strong {
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    padding: 10px 0 0;
-    margin-right: 30px;
     margin-bottom: 20px;
 }
 
@@ -447,8 +454,7 @@ strong {
 
 .hide:checked + .button_hidden_down + .nalog-question-text-hidden {
     display: block;
-    padding: 20px; 
-    margin-top: 24px;
+    padding: 20px;
 	border-top: 2px solid;
 	border-color: #034899;
 	border-radius: 0 0 10px 10px;
@@ -478,8 +484,6 @@ strong {
     position: relative;
 }
 
-
-
 .nalog-question-text_item {
 	display: flex;
 	flex-wrap: nowrap;
@@ -493,22 +497,19 @@ strong {
 
 .item_text {
 	margin: 0;
-}
-
-#text-hidden_2 {
-	margin-top: 42px;
+    width: 90%;
 }
 
 .aside_card {
     background-color: #f3f6f8;
-    padding: 50px 55px;
+    padding: 50px 50px 50px 90px;
     background-image: url(../images/card.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
-    margin-bottom: 50px;
-    height: 250px;
-    width: 80%;
+    margin-bottom: 120px;
+    height: 220px;
+    width: 70%;
 
     display: flex;
     flex-wrap: nowrap;
@@ -519,10 +520,617 @@ strong {
     color: #ffffff;
     font-size: 22px;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     line-height: 150%;
     width: 50%;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 5%;
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+
+    .nalog-top-section {
+        padding: 40px 50px;
+    }
+
+    .nalog-explan_text {
+        margin: 0 20%;
+    }
+
+    .icon_top {
+        top: 710px;
+    }
+
+    .nalog-advantages__category {
+        width: 47%;
+    }
+
+    .nalog-advantages__category-icon {
+        margin-right: 30px;
+    }
+
+    .nalog-score_item {
+        width: 400px;
+        padding: 20px 80px 30px 35px;
+    }
+
+    .nalog-score_item:nth-child(2) {
+        width: 400px;
+        padding: 20px 80px 30px 35px;
+    }
+
+    .nalog-score_item_summ {
+        margin: 0 0 20px;
+    }
+
+    .nalog-score_img {
+        height: 355px;
+    }
+
+    .icon_down {
+        top: 2190px;
+    }
+
+    .nalog-question-number {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .hide {
+        display: none; 
+    }
+
+    .hide + .button_hidden_down ~ .nalog-question-text-hidden{
+        display: none;
+    }
+
+    .hide + .button_hidden_down {
+        margin-bottom: 20px;
+        margin-top: auto;
+    }
+
+    .hide:checked + .button_hidden_down {
+        transform: rotate(180deg);
+    }
+
+    .hide:checked + .nalog-question_article {
+        border-radius: 10px 10px 0 0;
+        -webkit-border-radius: 10px 10px 0 0;
+        -moz-border-radius: 10px 10px 0 0;
+    }
+
+    .aside_card {
+        height: 200px;
+    }
+
+    .aside_card-text {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 961px) and (max-width: 1200px) {
+
+    .container {
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .nalog-top-section {
+        padding: 30px 50px;
+    }
+
+    .nalog_row_content-title {
+        font-size: 36px;
+        margin: 20px 0 40px;
+    }
+
+    .nalog_row_content-text {
+        font-size: 18px;
+    }
+
+    .nalog-explan {
+        margin: 0 30px 90px;
+    }
+
+    .nalog-explan-block {
+        padding: 70px 0;
+    }
+
+    .nalog-explan_text {
+        font-size: 16px;
+        margin: 0 15%;
+    }
+
+    .icon_top {
+        top: 610px;
+        width: 140px;
+    }
+
+    .nalog-advantages {
+        padding: 0 50px;
+        margin-bottom: 90px;
+    }
+
+    .nalog-section_title {
+        font-size: 24px;
+        width: 50%;
+    }
+
+    .nalog-advantages__category {
+        margin-bottom: 30px;
+    }
+
+    .nalog-advantages__category-icon {
+        margin-right: 30px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .nalog-advantages__category-inform-name {
+        font-size: 20px;
+    }
+
+    .nalog-advantages__category-inform-text {
+        font-size: 16px;
+    }
+
+    .nalog-score {
+        margin-bottom: 90px;
+    }
+
+    .nalog-score_items {
+        margin-right: 20px;
+    }
+    
+
+    .nalog-score_item {
+        padding: 25px 50px 30px 30px;
+        width: 400px;
+
+    }
+
+    .nalog-score_item_summ {
+        font-size: 38px;
+        margin: 0 0 25px;
+    }
+
+    .nalog-score_item_text {
+        font-size: 16px;
+    }
+
+    .nalog-score_item:nth-child(2) {
+        padding: 25px 50px 30px 30px;
+        width: 400px;
+    }
+
+    .nalog-top-section {
+        padding: 30px 50px;
+        margin-bottom: 30px;
+    }
+
+    .nalog_row_content {
+        max-width: 80%;
+    }
+
+    .nalog_row_content-title {
+        font-size: 36px;
+        margin: 20px 0 40px;
+    }
+
+    .nalog_row_content-text {
+        font-size: 18px;
+    }
+
+    ..nalog-explan {
+        margin: 0 20px 90px;
+    }
+
+    .nalog-explan-block {
+        padding: 60px 0;
+    }
+
+    .nalog-explan_text {
+        font-size: 16px;
+        margin: 0 20%;
+    }
+
+    .icon_top {
+        top: 580px;
+        width: 140px;
+    }
+
+    .nalog-advantages {
+        padding: 0 50px;
+        margin-bottom: 90px;
+    }
+
+    .nalog-section_title {
+        font-size: 24px;
+        width: 45%;
+        margin-bottom: 40px;
+    }
+
+    .nalog-advantages__category {
+        margin-bottom: 30px;
+    }
+
+    .nalog-advantages__category-icon {
+        margin-right: 30px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .nalog-advantages__category-inform-name {
+        font-size: 20px;
+        margin: 0 0 15px;
+    }
+
+    .nalog-advantages__category-inform-text {
+        font-size: 16px;
+    }
+
+    .nalog-score {
+        margin-bottom: 90px;
+    }
+
+    .nalog-score_items {
+        margin-right: 20px;
+    }
+
+    .nalog-score_item {
+        padding: 25px 50px 30px 30px;
+        width: 300px;
+    }
+
+    .nalog-score_item:nth-child(2) {
+        padding: 25px 50px 30px 30px;
+        width: 300px;
+    }
+
+    .nalog-score_item_summ {
+        font-size: 38px;
+        margin: 0 0 25px;
+    }
+
+    .nalog-score_item_text {
+        font-size: 16px;
+    }
+
+    .nalog-score_img {
+        height: 360px;
+    }
+
+    .nalog-actions-section {
+        margin: 0 20px 90px;
+    }
+
+    .nalog-actions-section_block {
+        padding: 60px 0;
+    }
+
+    .nalog-actions_title {
+        font-size: 24px;
+        width: 50%;
+        margin: 0 1% 0 30px;
+    }
+
+    .nalog-actions {
+        margin-right: 4%;
+    }
+
+    .nalog-actions_part-text {
+        font-size: 16px;
+        margin: 0 0 0 15px;
+    }
+
+    .icon_down {
+        top: 1910px;
+        width: 140px;
+    }
+
+    .nalog-question-section { 
+        margin-bottom: 70px;
+    }
+
+    .nalog-question_title {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .nalog-question-number {
+        font-size: 18px;
+        margin-right: 12px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .nalog-question-text {
+        font-size: 16px;
+        width: 75%;
+    }
+
+    .hide + .button_hidden_down {
+        margin-bottom: 10px;
+        margin-top: auto;
+    }
+
+    .nalog-question-text-hidden {
+        font-size: 16px;
+    }
+
+    .aside_card {
+        padding: 50px 40px 40px 70px;
+        height: 200px;
+        width: 80%;
+    }
+
+    .aside_card-text {
+        font-size: 20px;
+        line-height: 130%;
+        margin-left: 2%;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+
+    .nalog-top-section {
+        background-color: #f3f6f8;
+        padding: 30px 40px;
+        background-image: url(../images/house_960.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 30px;
+    }
+
+    .h1-title {
+        font-size: 16px;
+        margin: 0 0 15px;
+    }
+
+    .nalog_row_content {
+        max-width: 85%;
+    }
+
+    .nalog_row_content-title {
+        font-size: 32px;
+        margin: 10px 0 30px;
+    }
+
+    .nalog_row_content-text {
+        font-size: 16px;
+        margin: 0 0 15px;
+        letter-spacing: 0.5px;
+    }
+
+    .nalog-explan {
+        margin: 0 15px 70px;
+        border-radius: 5px;
+    }
+
+    .nalog-explan-block {
+        padding: 40px 0;
+    }
+
+    .nalog-explan_text {
+        font-size: 16px;
+        margin: 0 15%;
+        line-height: 140%;
+    }
+
+    .nalog-advantages {
+        padding: 0 30px;
+        margin-bottom: 40px;
+    }
+
+    .nalog-section_title {
+        font-size: 22px;
+        width: 70%;
+        margin-bottom: 40px;
+    }
+
+    .nalog-advantages_categories {
+        flex-direction: column;
+    }
+
+    .nalog-advantages__category {
+        margin-bottom: 30px;
+        width: 95%;
+    }
+
+    .nalog-advantages__category-icon {
+        margin-right: 20px;
+        width: 40px;
+        height: 40px;
+        margin-top: 5%;
+    }
+
+    .nalog-advantages__category-inform-name {
+        font-size: 18px;
+        line-height: 130%;
+        margin: 0 0 10px;
+    }
+
+    .nalog-advantages__category-inform-text {
+        font-size: 16px;
+    }
+
+    .nalog-score {
+        margin-bottom: 70px;
+        flex-wrap: wrap;
+        padding-left: 30px;
+
+        background-color: #f3f6f8;
+        padding: 30px 30px;
+        background-image: url(../images/pic__.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left center;
+        margin-bottom: 70px;
+    }
+
+    .nalog-score_items {
+        flex-direction: row;
+        margin-right: 0;
+        justify-content: space-between;
+    }
+
+    .nalog-score_item {
+        padding: 15px 40px 20px 25px;
+        margin-bottom: 140px;
+        width: 35%;
+    }
+
+    .nalog-score_item:nth-child(2) {
+        width: 40%;
+        padding: 15px 25px 20px 40px;
+        margin-top: 120px;
+    }
+
+    .nalog-score_item_summ {
+        font-size: 34px;
+        margin: 0 0 20px;
+    }
+
+    .nalog-score_item_text {
+        font-size: 16px;
+    }
+
+    .nalog-score_img {
+        display: none;
+    }
+
+    .nalog-actions-section {
+        margin: 0 15px 70px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+    }
+
+    .nalog-actions-section_block {
+        padding: 40px 30px;
+        flex-wrap: wrap;
+    }
+
+    .nalog-actions_title {
+        font-size: 22px;
+        width: 100%;
+        margin: 0 0 40px 0;
+    }
+
+    .nalog-actions {
+        margin: 0;
+        width: 95%;
+    }
+
+    .nalog-actions_part-text {
+        font-size: 16px;
+        line-height: 130%;
+        margin: 0 0 0 20px;
+        margin-top: 1%;
+    }
+
+    .nalog-question-section {
+        padding: 0 30px;
+        margin-bottom: 50px;
+    }
+
+    .nalog-question_title {
+        width: 80%;
+        font-size: 22px;
+        margin: 0 0 40px 0;
+    }
+
+    .nalog-question_blocks {
+        flex-direction: column;
+    }
+
+    .nalog-question_block {
+        width: 100%;
+    }
+
+    .nalog-question_article {
+        padding: 0;
+        position: relative;
+    }
+
+    .nalog-question-number {
+        font-size: 16px;
+        margin: 20px 15px;
+    }
+
+    .nalog-question-text {
+        font-size: 16px;
+        line-height: 130%;
+        width: 80%;
+    }
+
+    .button_hidden {
+        width: 30px;
+        height: 30px;
+    }
+
+    .hide + .button_hidden_down {
+        height: 30px;
+        margin-right: 15px;
+        margin-left: auto;
+    }
+
+    .hide:checked + .button_hidden_down + .nalog-question-text-hidden {
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    .nalog-question-text-hidden {
+        font-size: 16px;
+    }
+
+    .aside_card {
+        padding: 30px;
+        margin-bottom: 70px;
+        position: relative;
+        width: 90%;
+    }
+
+    .aside_card-text {
+        font-size: 18px;
+        line-height: 130%;
+    }
+
+    .aside_card-pic {
+        width: 380px;
+        margin-top: 40px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 831px) and (max-width: 960px) {
+
+    .icon_top {
+        right: 3%;
+        top: 470px;
+        width: 110px;
+    }
+
+    .icon_down {
+        right: 3%;
+        top: 1880px;
+        width: 120px;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 831px) {
+
+    .icon_top {
+        right: 3%;
+        top: 500px;
+        width: 110px;
+    }
+
+    .icon_down {
+        right: 3%;
+        top: 1950px;
+        width: 120px;
+    }
 }
