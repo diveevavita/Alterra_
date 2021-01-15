@@ -482,6 +482,7 @@ strong {
     letter-spacing: 1px;
     line-height: 150%;
     position: relative;
+    width: 100%;
 }
 
 .nalog-question-text_item {
@@ -492,6 +493,12 @@ strong {
 .icon_row {
 	margin-right: 5px;
 	margin-top: 2%;
+    margin-bottom: auto;
+}
+
+.icon_alterra {
+    margin-right: 5px;
+    margin-top: 2%;
     margin-bottom: auto;
 }
 
@@ -980,6 +987,10 @@ strong {
         padding: 15px 40px 20px 25px;
         margin-bottom: 140px;
         width: 35%;
+    }
+
+    .icon_row {
+        margin-top: 1%;
     }
 
     .nalog-score_item:nth-child(2) {
