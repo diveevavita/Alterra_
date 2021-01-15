@@ -1145,3 +1145,242 @@ strong {
         width: 120px;
     }
 }
+
+@media (max-width: 640px) {
+
+    .nalog-top-section {
+        background-color: #f3f6f8;
+        padding: 20px;
+        margin-bottom: 50px;
+        background-image: none;
+    }
+
+    .nalog_row_content {
+        max-width: 100%;
+    }
+
+    .nalog_row_content-title {
+        font-size: 24px;
+        margin: 10px 0 30px;
+    }
+
+    .nalog_row_content-text {
+        font-size: 16px;
+        line-height: 120%;
+        margin: 0 0 15px;
+    }
+
+    .nalog-explan {
+        margin: 0 20px 80px;
+        border-radius: 5px;
+    }
+
+    .nalog-explan-block {
+        padding: 50px 30px;
+    }
+
+    .nalog-explan_text {
+        font-size: 16px;
+        line-height: 130%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .icon_top {
+        right: 10%;
+        top: 510px;
+        width: 90px;
+    }
+
+    .nalog-advantages {
+        padding: 0 20px;
+        margin-bottom: 50px;
+    }
+
+    .nalog-section_title {
+        font-size: 28px;
+        width: 100%;
+        margin: 10px 0 50px;
+    }
+
+    .nalog-advantages_categories {
+        flex-direction: column;
+    }
+
+    .nalog-advantages__category {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .nalog-advantages__category-icon {
+        margin-right: 30px;
+        width: 50px;
+        height: 50px;
+        margin-top: 5%;
+    }
+
+
+
+
+
+
+    .nalog-advantages__category-inform-name {
+        font-size: 22px;
+        margin: 0 0 15px;
+    }
+
+    
+
+    .nalog-score {
+        padding: 0 20px;
+        margin-bottom: 80px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .nalog-score_items {
+        margin-right: 0;
+    }
+
+    .nalog-score_item {
+        padding: 40px 60px 40px 40px;
+        margin-bottom: 20px;
+        width: inherit;
+    }
+
+    .icon_row {
+        margin-top: 1%;
+    }
+
+    .nalog-score_item:nth-child(2) {
+        padding: 40px 60px 40px 40px;
+        margin-bottom: 20px;
+        width: inherit;
+    }
+
+    .nalog-score_item_summ {
+        font-size: 32px;
+        margin: 0 0 20px;
+    }
+
+    .nalog-score_item_text {
+        font-size: 18px;
+    }
+
+    .nalog-score_img {
+        display: none;
+    }
+
+    .nalog-actions-section {
+        margin: 0 15px 70px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+    }
+
+    .nalog-actions-section_block {
+        padding: 40px 30px;
+        flex-wrap: wrap;
+    }
+
+    .nalog-actions_title {
+        font-size: 22px;
+        width: 100%;
+        margin: 0 0 40px 0;
+    }
+
+    .nalog-actions {
+        margin: 0;
+        width: 95%;
+    }
+
+    .nalog-actions_part-text {
+        font-size: 16px;
+        line-height: 130%;
+        margin: 0 0 0 20px;
+        margin-top: 1%;
+    }
+
+    .nalog-question-section {
+        padding: 0 30px;
+        margin-bottom: 50px;
+    }
+
+    .nalog-question_title {
+        width: 80%;
+        font-size: 22px;
+        margin: 0 0 40px 0;
+    }
+
+    .nalog-question_blocks {
+        flex-direction: column;
+    }
+
+    .nalog-question_block {
+        width: 100%;
+    }
+
+    .nalog-question_article {
+        padding: 0;
+        position: relative;
+    }
+
+    .nalog-question-number {
+        font-size: 16px;
+        margin: 20px 15px;
+    }
+
+    .nalog-question-text {
+        font-size: 16px;
+        line-height: 130%;
+        width: 80%;
+    }
+
+    .button_hidden {
+        width: 30px;
+        height: 30px;
+    }
+
+    .hide + .button_hidden_down {
+        height: 30px;
+        margin-right: 15px;
+        margin-left: auto;
+    }
+
+    .hide:checked + .button_hidden_down + .nalog-question-text-hidden {
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    .nalog-question-text-hidden {
+        font-size: 16px;
+    }
+
+    .aside_card {
+        padding: 30px;
+        margin-bottom: 70px;
+        position: relative;
+        width: 90%;
+    }
+
+    .aside_card-text {
+        font-size: 18px;
+        line-height: 130%;
+    }
+
+    .aside_card-pic {
+        width: 380px;
+        margin-top: 40px;
+        height: 200px;
+    }
+
+    
+
+
+
+
+
+
+}
