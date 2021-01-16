@@ -142,6 +142,7 @@ body {
     text-indent: 0;
     padding: 0;
     margin: 0 0 20px;
+    width: 60%;
 }
 
 .sum {
@@ -377,7 +378,7 @@ strong {
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 130%;
-    width: 45%;
+    width: 35%;
     margin-bottom: 50px;
 }
 
@@ -537,6 +538,10 @@ strong {
 
 @media (min-width: 1201px) and (max-width: 1400px) {
 
+    .nalog_row_content-text {
+        width: 70%;
+    }
+
     .nalog-top-section {
         padding: 40px 50px;
     }
@@ -579,6 +584,10 @@ strong {
         top: 2190px;
     }
 
+    .nalog-question_title {
+        width: 40%;
+    }
+
     .nalog-question-number {
         margin-top: 50px;
         margin-bottom: 50px;
@@ -617,6 +626,10 @@ strong {
 }
 
 @media (min-width: 961px) and (max-width: 1200px) {
+
+    .nalog_row_content-text {
+        width: 60%;
+    }
 
     .container {
         padding: 0 15px;
@@ -843,6 +856,7 @@ strong {
     .nalog-question_title {
         font-size: 24px;
         margin-bottom: 40px;
+        width: 50%;
     }
 
     .nalog-question-number {
@@ -880,6 +894,10 @@ strong {
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
+
+    .nalog_row_content-text {
+        width: 60%;
+    }
 
     .nalog-top-section {
         background-color: #f3f6f8;
@@ -933,7 +951,7 @@ strong {
 
     .nalog-section_title {
         font-size: 22px;
-        width: 70%;
+        width: 60%;
         margin-bottom: 40px;
     }
 
@@ -1048,7 +1066,7 @@ strong {
     }
 
     .nalog-question_title {
-        width: 80%;
+        width: 60%;
         font-size: 22px;
         margin: 0 0 40px 0;
     }
@@ -1126,7 +1144,7 @@ strong {
 
     .icon_down {
         right: 3%;
-        top: 1880px;
+        top: 1850px;
         width: 120px;
     }
 }
@@ -1148,6 +1166,10 @@ strong {
 
 @media (max-width: 640px) {
 
+    .h1-title {
+        font-size: 16px;
+    }
+
     .nalog-top-section {
         background-color: #f3f6f8;
         padding: 20px;
@@ -1168,15 +1190,16 @@ strong {
         font-size: 16px;
         line-height: 120%;
         margin: 0 0 15px;
+        width: 100%;
     }
 
     .nalog-explan {
-        margin: 0 20px 80px;
+        margin: 0 0 80px;
         border-radius: 5px;
     }
 
     .nalog-explan-block {
-        padding: 50px 30px;
+        padding: 50px 20px;
     }
 
     .nalog-explan_text {
@@ -1188,19 +1211,13 @@ strong {
         margin-left: 0;
     }
 
-    .icon_top {
-        right: 10%;
-        top: 510px;
-        width: 90px;
-    }
-
     .nalog-advantages {
         padding: 0 20px;
         margin-bottom: 50px;
     }
 
     .nalog-section_title {
-        font-size: 28px;
+        font-size: 20px;
         width: 100%;
         margin: 10px 0 50px;
     }
@@ -1215,29 +1232,27 @@ strong {
     }
 
     .nalog-advantages__category-icon {
-        margin-right: 30px;
-        width: 50px;
-        height: 50px;
-        margin-top: 5%;
+        margin-right: 20px;
+        width: 40px;
+        height: 40px;
+        margin-top: 10%;
     }
-
-
-
-
-
 
     .nalog-advantages__category-inform-name {
-        font-size: 22px;
-        margin: 0 0 15px;
+        font-size: 18px;
+        margin: 0 0 10px;
     }
 
-    
+    .nalog-advantages__category-inform-text {
+        font-size: 16px;
+        line-height: 130%;
+    }
 
     .nalog-score {
         padding: 0 20px;
         margin-bottom: 80px;
         flex-direction: column;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
 
     .nalog-score_items {
@@ -1245,72 +1260,73 @@ strong {
     }
 
     .nalog-score_item {
-        padding: 40px 60px 40px 40px;
+        padding: 20px 40px 30px 20px;
         margin-bottom: 20px;
         width: inherit;
     }
 
     .icon_row {
-        margin-top: 1%;
+        margin-top: 3%;
     }
 
     .nalog-score_item:nth-child(2) {
-        padding: 40px 60px 40px 40px;
+        padding: 20px 20px 30px 40px;
         margin-bottom: 20px;
         width: inherit;
     }
 
     .nalog-score_item_summ {
-        font-size: 32px;
+        font-size: 30px;
         margin: 0 0 20px;
     }
 
     .nalog-score_item_text {
-        font-size: 18px;
+        font-size: 16px
     }
 
     .nalog-score_img {
-        display: none;
+        display: inline;
+        width: 100%;
     }
 
     .nalog-actions-section {
-        margin: 0 15px 70px;
+        margin: 0 0 80px;
         border-radius: 5px;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
     }
 
     .nalog-actions-section_block {
-        padding: 40px 30px;
+        padding: 50px 30px;
         flex-wrap: wrap;
     }
 
     .nalog-actions_title {
-        font-size: 22px;
+        font-size: 20px;
         width: 100%;
         margin: 0 0 40px 0;
     }
 
     .nalog-actions {
         margin: 0;
-        width: 95%;
+        width: 100%;
     }
 
     .nalog-actions_part-text {
         font-size: 16px;
         line-height: 130%;
-        margin: 0 0 0 20px;
-        margin-top: 1%;
+        margin: 5px 0 0 15px;
+        width: 80%;
     }
 
     .nalog-question-section {
-        padding: 0 30px;
+        padding: 0 20px;
         margin-bottom: 50px;
     }
 
     .nalog-question_title {
-        width: 80%;
-        font-size: 22px;
+        width: 100%;
+        font-size: 20px;
         margin: 0 0 40px 0;
     }
 
@@ -1329,23 +1345,22 @@ strong {
 
     .nalog-question-number {
         font-size: 16px;
-        margin: 20px 15px;
     }
 
     .nalog-question-text {
         font-size: 16px;
         line-height: 130%;
-        width: 80%;
+        width: 65%;
     }
 
     .button_hidden {
-        width: 30px;
-        height: 30px;
+        width: 32px;
+        height: 32px;
     }
 
     .hide + .button_hidden_down {
         height: 30px;
-        margin-right: 15px;
+        margin-right: 10px;
         margin-left: auto;
     }
 
@@ -1359,28 +1374,34 @@ strong {
     }
 
     .aside_card {
-        padding: 30px;
-        margin-bottom: 70px;
+        padding: 20px 30px 20px 20px;
+        margin-bottom: 80px;
         position: relative;
-        width: 90%;
+        width: 70%;
+        flex-direction: column-reverse;
     }
 
     .aside_card-text {
-        font-size: 18px;
-        line-height: 130%;
+        font-size: 16px;
+        line-height: 120%;
+        margin-left: 0;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: auto;
     }
 
     .aside_card-pic {
-        width: 380px;
-        margin-top: 40px;
-        height: 200px;
+        width: 450px;
+        position: absolute;
+        height: 110px;
     }
 
-    
+    .icon_top {
+        display: none;
+    }
 
-
-
-
-
-
+    .icon_down {
+        display: none;
+    }
 }
+
