@@ -1405,3 +1405,244 @@ strong {
     }
 }
 
+@media (max-width: 340px) {
+
+    .h1-title {
+        font-size: 16px;
+    }
+
+    .nalog-top-section {
+        background-color: #f3f6f8;
+        padding: 20px;
+        margin-bottom: 50px;
+        background-image: none;
+    }
+
+    .nalog_row_content {
+        max-width: 100%;
+    }
+
+    .nalog_row_content-title {
+        font-size: 24px;
+        margin: 10px 0 30px;
+    }
+
+    .nalog_row_content-text {
+        font-size: 16px;
+        line-height: 120%;
+        margin: 0 0 15px;
+        width: 100%;
+    }
+
+    .nalog-explan {
+        margin: 0 0 80px;
+        border-radius: 5px;
+    }
+
+    .nalog-explan-block {
+        padding: 50px 20px;
+    }
+
+    .nalog-explan_text {
+        font-size: 16px;
+        line-height: 130%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .nalog-advantages {
+        padding: 0 20px;
+        margin-bottom: 50px;
+    }
+
+    .nalog-section_title {
+        font-size: 20px;
+        width: 100%;
+        margin: 10px 0 50px;
+    }
+
+    .nalog-advantages_categories {
+        flex-direction: column;
+    }
+
+    .nalog-advantages__category {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .nalog-advantages__category-icon {
+        margin-right: 20px;
+        width: 40px;
+        height: 40px;
+        margin-top: 10%;
+    }
+
+    .nalog-advantages__category-inform-name {
+        font-size: 18px;
+        margin: 0 0 10px;
+    }
+
+    .nalog-advantages__category-inform-text {
+        font-size: 16px;
+        line-height: 130%;
+    }
+
+    .nalog-score {
+        padding: 0 20px;
+        margin-bottom: 80px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .nalog-score_items {
+        margin-right: 0;
+    }
+
+    .nalog-score_item {
+        padding: 20px 40px 30px 20px;
+        margin-bottom: 20px;
+        width: inherit;
+    }
+
+    .icon_row {
+        margin-top: 3%;
+    }
+
+    .nalog-score_item:nth-child(2) {
+        padding: 20px 20px 30px 40px;
+        margin-bottom: 20px;
+        width: inherit;
+    }
+
+    .nalog-score_item_summ {
+        font-size: 30px;
+        margin: 0 0 20px;
+    }
+
+    .nalog-score_item_text {
+        font-size: 16px
+    }
+
+    .nalog-score_img {
+        display: inline;
+        width: 100%;
+    }
+
+    .nalog-actions-section {
+        margin: 0 0 80px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+    }
+
+    .nalog-actions-section_block {
+        padding: 50px 30px;
+        flex-wrap: wrap;
+    }
+
+    .nalog-actions_title {
+        font-size: 20px;
+        width: 100%;
+        margin: 0 0 40px 0;
+    }
+
+    .nalog-actions {
+        margin: 0;
+        width: 100%;
+    }
+
+    .nalog-actions_part-text {
+        font-size: 16px;
+        line-height: 130%;
+        margin: 5px 0 0 15px;
+        width: 80%;
+    }
+
+    .nalog-question-section {
+        padding: 0 20px;
+        margin-bottom: 50px;
+    }
+
+    .nalog-question_title {
+        width: 100%;
+        font-size: 20px;
+        margin: 0 0 40px 0;
+    }
+
+    .nalog-question_blocks {
+        flex-direction: column;
+    }
+
+    .nalog-question_block {
+        width: 100%;
+    }
+
+    .nalog-question_article {
+        padding: 0;
+        position: relative;
+    }
+
+    .nalog-question-number {
+        font-size: 16px;
+    }
+
+    .nalog-question-text {
+        font-size: 16px;
+        line-height: 130%;
+        width: 60%;
+    }
+
+    .button_hidden {
+        width: 32px;
+        height: 32px;
+    }
+
+    .hide + .button_hidden_down {
+        height: 30px;
+        margin-right: 10px;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+
+    .hide:checked + .button_hidden_down + .nalog-question-text-hidden {
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    .nalog-question-text-hidden {
+        font-size: 16px;
+    }
+
+    .aside_card {
+        padding: 20px 30px 20px 20px;
+        margin-bottom: 80px;
+        position: relative;
+        width: 70%;
+        flex-direction: column-reverse;
+    }
+
+    .aside_card-text {
+        font-size: 16px;
+        line-height: 120%;
+        margin-left: 0;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: auto;
+    }
+
+    .aside_card-pic {
+        width: 260px;
+        position: absolute;
+        height: 100px;
+    }
+
+    .icon_top {
+        display: none;
+    }
+
+    .icon_down {
+        display: none;
+    }
+}
