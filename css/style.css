@@ -1411,6 +1411,12 @@ strong {
     }
 }
 
+@media (max-width: 480px) {
+    .nalog-score_img {
+        display: none;
+    }
+}
+
 @media (max-width: 340px) {
 
     .h1-title {
