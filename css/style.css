@@ -1172,9 +1172,13 @@ strong {
 
     .nalog-top-section {
         background-color: #f3f6f8;
-        padding: 20px;
+        padding: 0;
         margin-bottom: 50px;
-        background-image: none;
+    }
+
+    .nalog_row {
+        background: rgba(0, 0, 0, 0.6);
+        padding: 20px;
     }
 
     .nalog_row_content {
@@ -1184,6 +1188,7 @@ strong {
     .nalog_row_content-title {
         font-size: 24px;
         margin: 10px 0 30px;
+        color: white;
     }
 
     .nalog_row_content-text {
@@ -1191,6 +1196,7 @@ strong {
         line-height: 120%;
         margin: 0 0 15px;
         width: 100%;
+        color: white;
     }
 
     .nalog-explan {
@@ -1377,7 +1383,7 @@ strong {
         padding: 20px 30px 20px 20px;
         margin-bottom: 80px;
         position: relative;
-        width: 70%;
+        width: auto;
         flex-direction: column-reverse;
     }
 
@@ -1413,9 +1419,13 @@ strong {
 
     .nalog-top-section {
         background-color: #f3f6f8;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .nalog_row {
+        background: rgba(0, 0, 0, 0.6);
         padding: 20px;
-        margin-bottom: 50px;
-        background-image: none;
     }
 
     .nalog_row_content {
@@ -1435,7 +1445,7 @@ strong {
     }
 
     .nalog-explan {
-        margin: 0 0 80px;
+        margin: 0 0 50px;
         border-radius: 5px;
     }
 
@@ -1454,13 +1464,13 @@ strong {
 
     .nalog-advantages {
         padding: 0 20px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     .nalog-section_title {
         font-size: 20px;
         width: 100%;
-        margin: 10px 0 50px;
+        margin: 10px 0 30px;
     }
 
     .nalog-advantages_categories {
@@ -1468,7 +1478,7 @@ strong {
     }
 
     .nalog-advantages__category {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         width: 100%;
     }
 
@@ -1491,7 +1501,7 @@ strong {
 
     .nalog-score {
         padding: 0 20px;
-        margin-bottom: 80px;
+        margin-bottom: 50px;
         flex-direction: column;
         flex-wrap: nowrap;
     }
@@ -1531,7 +1541,7 @@ strong {
     }
 
     .nalog-actions-section {
-        margin: 0 0 80px;
+        margin: 0 0 50px;
         border-radius: 5px;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
@@ -1545,7 +1555,7 @@ strong {
     .nalog-actions_title {
         font-size: 20px;
         width: 100%;
-        margin: 0 0 40px 0;
+        margin: 0 0 30px 0;
     }
 
     .nalog-actions {
@@ -1562,13 +1572,13 @@ strong {
 
     .nalog-question-section {
         padding: 0 20px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     .nalog-question_title {
         width: 100%;
         font-size: 20px;
-        margin: 0 0 40px 0;
+        margin: 0 0 30px 0;
     }
 
     .nalog-question_blocks {
@@ -1617,9 +1627,9 @@ strong {
 
     .aside_card {
         padding: 20px 30px 20px 20px;
-        margin-bottom: 80px;
+        margin-bottom: 50px;
         position: relative;
-        width: 70%;
+        width: auto;
         flex-direction: column-reverse;
     }
 
