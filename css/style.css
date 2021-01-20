@@ -168,7 +168,8 @@ body {
     font-weight: 400;
     line-height: 150%;
     letter-spacing: 1px;
-    margin: 0 25%;
+    margin: 0 3%;
+    text-align: justify;
 }
 
 strong {
@@ -547,7 +548,7 @@ strong {
     }
 
     .nalog-explan_text {
-        margin: 0 20%;
+        margin: 0 5%;
     }
 
     .icon_top {
@@ -659,7 +660,7 @@ strong {
 
     .nalog-explan_text {
         font-size: 16px;
-        margin: 0 15%;
+        margin: 0 5%;
     }
 
     .icon_top {
